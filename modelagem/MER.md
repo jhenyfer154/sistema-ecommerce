@@ -151,4 +151,4 @@ O atributo *subtotal* de ItemPedido é um atributo derivado, pois pode ser obtid
 
 O diagrama abaixo representa visualmente as entidades e seus principais relacionamentos.
 
-![Diagrama Entidade e Relacionamento](DER-Ecommerce.png)
+![Diagrama Entidade e Relacionamento](Diagrama sem nome.drawio.png)
