@@ -70,19 +70,19 @@ Cada Pedido possui um Pagamento e cada Pagamento está relacionado a apenas um P
 
  Pedido e Endereco
 
-*[Pedido] (N) — utiliza — (1) [Endereco]*
+[Pedido] (1) UTILIZA (N) [Endereço]
 
-Um Endereço pode ser utilizado em vários Pedidos ao longo do tempo, mas cada Pedido utiliza apenas um Endereço de entrega.
+Um Pedido utiliza apenas 1 Endereço, enquanto um Endereço pode ser utilizado por vários Pedidos.
 
  3. Sugestão de Atributos
 
 Cliente
 
-* *id_cliente (PK):* identificador único do cliente.
-* nome: nome completo do cliente.
-* cpf: CPF do cliente.
-* email: endereço de e-mail do cliente.
-* telefone: telefone do cliente.
+Cliente:
+- CPF (PK)
+- nome
+- email
+- telefone
 
 Produto
 
