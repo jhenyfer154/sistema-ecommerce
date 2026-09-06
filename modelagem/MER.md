@@ -70,7 +70,7 @@ Cada Pedido possui um Pagamento e cada Pagamento está relacionado a apenas um P
 
  Pedido e Endereco
 
-[Pedido] (1) UTILIZA (N) [Endereço]
+[Pedido] (N) — UTILIZA — (1) [Endereço]
 
 Um Pedido utiliza apenas 1 Endereço, enquanto um Endereço pode ser utilizado por vários Pedidos.
 
