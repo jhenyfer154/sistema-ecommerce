@@ -101,12 +101,14 @@ Produto
 
 Pedido
 
-* *id_pedido (PK):* identificador único do pedido.
-* data_pedido: data em que o pedido foi realizado.
-* status: situação atual do pedido.
-* valor_total: valor total do pedido.
-* id_cliente (FK): identifica o cliente responsável pelo pedido.
-* id_endereco (FK): identifica o endereço utilizado para entrega.
+Pedido
+
+- id_pedido (PK): identificador único do pedido.
+- data_pedido: data em que o pedido foi realizado.
+- status: situação atual do pedido.
+- valor_total: valor total do pedido.
+- CPF (FK): identifica o cliente responsável pelo pedido.
+- id_endereco (FK): identifica o endereço utilizado para entrega.
 
 ItemPedido
 
@@ -128,16 +130,18 @@ Pagamento
 
 Endereco
 
-* *id_endereco (PK):* identificador único do endereço.
-* rua: nome da rua.
-* numero: número do endereço.
-* complemento: complemento do endereço.
-* bairro: bairro do endereço.
-* cidade: cidade do endereço.
-* estado: estado do endereço.
-* cep: CEP do endereço.
-* id_cliente (FK): identifica o cliente proprietário do endereço.
+Endereco
 
+- id_endereco (PK): identificador único do endereço.
+- rua: nome da rua.
+- numero: número do endereço.
+- complemento: complemento do endereço.
+- bairro: bairro do endereço.
+- cidade: cidade do endereço.
+- estado: estado do endereço.
+- cep: CEP do endereço.
+- CPF (FK): identifica o cliente proprietário do endereço.
+  
 Observações sobre os atributos
 
 Os atributos identificados como *PK* são as chaves primárias das entidades e possuem a função de identificar cada registro de forma única.
