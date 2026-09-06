@@ -99,7 +99,6 @@ Produto
 * nome: nome da categoria.
 * descricao: descrição da categoria.
 
-Pedido
 
 Pedido
 
@@ -128,7 +127,6 @@ Pagamento
 * status: situação do pagamento.
 * id_pedido (FK): identifica o pedido relacionado ao pagamento.
 
-Endereco
 
 Endereco
 
