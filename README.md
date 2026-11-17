@@ -48,3 +48,35 @@ O sistema deve atender aos seguintes processos:
  Objetivo da Modelagem
 
 A modelagem tem como objetivo representar as principais entidades do sistema de e-commerce, seus atributos e os relacionamentos existentes entre elas, servindo como base para a criação futura do banco de dados.
+
+## Implementação do Banco de Dados
+
+O projeto também conta com a implementação do banco de dados utilizando comandos SQL, divididos em DDL e DML.
+
+### Estrutura do Banco de Dados (DDL)
+
+Foi desenvolvido o arquivo `script-ddl.sql`, responsável pela criação das oito tabelas do sistema:
+
+1. CLIENTE
+2. ENDERECO
+3. CATEGORIA
+4. PRODUTO
+5. PEDIDO
+6. PAGAMENTO
+7. ITEM_PEDIDO
+8. AVALIACAO_PRODUTO
+
+A tabela AVALIACAO_PRODUTO foi acrescentada para permitir que os clientes registrem notas e comentários sobre os produtos.
+
+### Povoamento do Banco de Dados (DML)
+
+Foi desenvolvido o arquivo `script-dml.sql`, contendo os comandos de inserção de dados nas oito tabelas.
+
+Os registros foram organizados em cenários que representam etapas do funcionamento da loja virtual, desde o cadastro inicial de categorias e produtos até a realização de pedidos, pagamentos e avaliações.
+
+Cada tabela possui cinco registros, totalizando quarenta registros inseridos.
+
+### Arquivos SQL
+
+- `script-ddl.sql`: criação das tabelas e definição das chaves e restrições.
+- `script-dml.sql`: inserção dos dados e documentação dos cenários.
